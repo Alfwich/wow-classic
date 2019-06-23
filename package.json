@@ -2,7 +2,7 @@
   "name": "wow-classic-bot",
   "version": "1.0.0",
   "description": "Countdown timer for Wow Classic launch",
-  "main": "bot.js",
+  "main": "app.js",
   "author": "Arthur Wuterich",
   "dependencies": {
     "countdown": "^2.6.0",

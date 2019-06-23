@@ -1,0 +1,1081 @@
+[{
+    "command": "/agree",
+    "self": "You agree.",
+    "target": "You agree with {{target}}."
+  },
+  {
+    "command": "/amaze",
+    "self": "You are amazed!",
+    "target": "You are amazed by {{target}}."
+  },
+  {
+    "command": "/angry",
+    "self": "You raise your fist in anger.",
+    "target": "You raise your fist in anger at {{target}}."
+  },
+  {
+    "command": "/apologize",
+    "self": "You apologize to everyone. Sorry!",
+    "target": "You apologize to {{target}}. Sorry!"
+  },
+  {
+    "command": "/applaud, /applause",
+    "self": "You applaud. Bravo!",
+    "target": "You applaud at {{target}}. Bravo!"
+  },
+  {
+    "command": "/attacktarget",
+    "self": "You tell everyone to attack something.",
+    "target": "You tell everyone to attack {{target}}."
+  },
+  {
+    "command": "/bark",
+    "self": "You bark. Woof woof!",
+    "target": "You bark at {{target}}"
+  },
+  {
+    "command": "/bashful",
+    "self": "You are bashful.",
+    "target": "You are so bashful...too bashful to get {{target}}'s attention."
+  },
+  {
+    "command": "/beckon",
+    "self": "You beckon everyone over to you.",
+    "target": "You beckon {{target}} over."
+  },
+  {
+    "command": "/beg",
+    "self": "You beg everyone around you. How pathetic.",
+    "target": "You beg {{target}}. How pathetic."
+  },
+  {
+    "command": "/belch",
+    "self": "You let out a loud belch.",
+    "target": "You burp rudely in {{target}}'s face."
+  },
+  {
+    "command": "/bite",
+    "self": "You look around for someone to bite.",
+    "target": "You bite {{target}}. Ouch!"
+  },
+  {
+    "command": "/bleed",
+    "self": "",
+    "target": ""
+  },
+  {
+    "command": "/blood",
+    "self": "Blood oozes from your wounds.",
+    "target": ""
+  },
+  {
+    "command": "/blink",
+    "self": "You blink your eyes.",
+    "target": "You blink at {{target}}."
+  },
+  {
+    "command": "/blow",
+    "self": "You blow a kiss into the wind.",
+    "target": "You blow a kiss to {{target}}."
+  },
+  {
+    "command": "/blush",
+    "self": "You blush.",
+    "target": "You blush at {{target}}."
+  },
+  {
+    "command": "/boggle",
+    "self": "You boggle at the situation.",
+    "target": "You boggle at {{target}}."
+  },
+  {
+    "command": "/bonk",
+    "self": "You bonk yourself on the noggin. Doh!",
+    "target": "You bonk {{target}} on the noggin. Doh!"
+  },
+  {
+    "command": "/bored",
+    "self": "You are overcome with boredom. Oh the drudgery!",
+    "target": "You are terribly bored with {{target}}."
+  },
+  {
+    "command": "/bounce",
+    "self": "You bounce up and down.",
+    "target": "You bounce up and down in front of {{target}}."
+  },
+  {
+    "command": "/bow",
+    "self": "You bow down graciously.",
+    "target": "You bow before {{target}}."
+  },
+  {
+    "command": "/bravo",
+    "self": "You applaud. Bravo!",
+    "target": "You applaud at {{target}}. Bravo!"
+  },
+  {
+    "command": "/brandish",
+    "self": "You brandish your weapon fiercely.",
+    "target": "You brandish your weapon fiercely at {{target}}."
+  },
+  {
+    "command": "/brb",
+    "self": "You let everyone know you'll be right back",
+    "target": "You let {{target}} know you'll be right back."
+  },
+  {
+    "command": "/burp",
+    "self": "You let out a loud belch.",
+    "target": "You burp rudely in {{target}}'s face."
+  },
+  {
+    "command": "/bye",
+    "self": "You wave goodbye to everyone. Farewell!",
+    "target": "You wave goodbye to {{target}}. Farewell!"
+  },
+  {
+    "command": "/cackle",
+    "self": "You cackle maniacally at the situation.",
+    "target": "You cackle maniacally at {{target}}."
+  },
+  {
+    "command": "/calm",
+    "self": "You remain calm.",
+    "target": "You try to calm {{target}} down."
+  },
+  {
+    "command": "/cat, /catty",
+    "self": "You scratch yourself. Ah, much better!",
+    "target": "You scratch {{target}}. How catty!"
+  },
+  {
+    "command": "/cheer",
+    "self": "You cheer!",
+    "target": "You cheer at {{target}}."
+  },
+  {
+    "command": "/chew",
+    "self": "You begin to eat.",
+    "target": "You begin to eat in front of {{target}}."
+  },
+  {
+    "command": "/chicken",
+    "self": "With arms flapping, you strut around. Cluck, Cluck, Chicken!",
+    "target": "With arms flapping, you strut around {{target}}. Cluck, Cluck, Chicken!"
+  },
+  {
+    "command": "/chuckle",
+    "self": "You let out a hearty chuckle.",
+    "target": "You chuckle at {{target}}."
+  },
+  {
+    "command": "/clap",
+    "self": "You clap excitedly.",
+    "target": "You clap excitedly for {{target}}."
+  },
+  {
+    "command": "/cold",
+    "self": "You let everyone know that you are cold.",
+    "target": "You let {{target}} know that you are cold."
+  },
+  {
+    "command": "/comfort",
+    "self": "You need to be comforted.",
+    "target": "You comfort {{target}}."
+  },
+  {
+    "command": "/commend",
+    "self": "You commend everyone on a job well done.",
+    "target": "You commend {{target}} on a job well done."
+  },
+  {
+    "command": "/confused",
+    "self": "You are hopelessly confused.",
+    "target": "You look at {{target}} with a confused look."
+  },
+  {
+    "command": "/congrats, /cong, /congratulate",
+    "self": "You congratulate everyone around you.",
+    "target": "You congratulate {{target}}."
+  },
+  {
+    "command": "/cough",
+    "self": "You let out a hacking cough.",
+    "target": "You cough at {{target}}."
+  },
+  {
+    "command": "/cower",
+    "self": "You cower in fear.",
+    "target": "You cower in fear at the sight of {{target}}."
+  },
+  {
+    "command": "/crack",
+    "self": "You crack your knuckles.",
+    "target": "You crack your knuckles while staring at {{target}}."
+  },
+  {
+    "command": "/cringe",
+    "self": "You cringe in fear.",
+    "target": "You cringe away from {{target}}."
+  },
+  {
+    "command": "/cry",
+    "self": "You cry.",
+    "target": "You cry on {{target}}'s shoulder."
+  },
+  {
+    "command": "/cuddle",
+    "self": "You need to be cuddled.",
+    "target": "You cuddle up against {{target}}."
+  },
+  {
+    "command": "/curious",
+    "self": "You express your curiosity to those around you.",
+    "target": "You are curious what {{target}} is up to."
+  },
+  {
+    "command": "/curtsey",
+    "self": "You curtsey.",
+    "target": "You curtsey before {{target}}."
+  },
+  {
+    "command": "/dance",
+    "self": "You burst into dance.",
+    "target": "You dance with {{target}}."
+  },
+  {
+    "command": "/ding",
+    "self": "You reached a new level. DING!",
+    "target": "You congratulate {{target}} on a new level. DING!"
+  },
+  {
+    "command": "/disappointed",
+    "self": "You frown.",
+    "target": "You frown with disappointment at {{target}}."
+  },
+  {
+    "command": "/doh",
+    "self": "You bonk yourself on the noggin. Doh!",
+    "target": "You bonk {{target}} on the noggin. Doh!"
+  },
+  {
+    "command": "/doom",
+    "self": "You threaten everyone with the wrath of doom.",
+    "target": "You threaten {{target}} with the wrath of doom."
+  },
+  {
+    "command": "/drink",
+    "self": "You raise a drink in the air before chugging it down. Cheers!",
+    "target": "You raise a drink to {{target}}. Cheers!"
+  },
+  {
+    "command": "/drool",
+    "self": "A tendril of drool runs down your lip.",
+    "target": "You look at {{target}} and begin to drool."
+  },
+  {
+    "command": "/duck",
+    "self": "You duck for cover.",
+    "target": "You duck behind {{target}}."
+  },
+  {
+    "command": "/eat",
+    "self": "You begin to eat.",
+    "target": "You begin to eat in front of {{target}}."
+  },
+  {
+    "command": "/excited",
+    "self": "You talk excitedly with everyone.",
+    "target": "You talk excitedly with {{target}}."
+  },
+  {
+    "command": "/eye",
+    "self": "You cross your eyes.",
+    "target": "You eye {{target}} up and down."
+  },
+  {
+    "command": "/facepalm",
+    "self": "You cover your face with your palm.",
+    "target": "You look over at {{target}} and cover your face with your palm."
+  },
+  {
+    "command": "/farewell",
+    "self": "You wave goodbye to everyone. Farewell!",
+    "target": "You wave goodbye to {{target}}. Farewell!"
+  },
+  {
+    "command": "/fart",
+    "self": "You fart loudly. Whew...what stinks?",
+    "target": "You brush up against {{target}} and fart loudly."
+  },
+  {
+    "command": "/fear",
+    "self": "You cower in fear.",
+    "target": "You cower in fear at the sight of {{target}}."
+  },
+  {
+    "command": "/feast",
+    "self": "You begin to eat.",
+    "target": "You begin to eat in front of {{target}}."
+  },
+  {
+    "command": "/fidget",
+    "self": "You fidget.",
+    "target": "You fidget impatiently while waiting for {{target}}."
+  },
+  {
+    "command": "/flap",
+    "self": "With arms flapping, you strut around. Cluck, Cluck, Chicken!",
+    "target": "With arms flapping, you strut around {{target}}. Cluck, Cluck, Chicken!"
+  },
+  {
+    "command": "/flee",
+    "self": "You yell for everyone to flee!",
+    "target": "You yell for {{target}} to flee!"
+  },
+  {
+    "command": "/flex",
+    "self": "You flex your muscles. Oooooh so strong!",
+    "target": "You flex at {{target}}. Oooooh so strong!"
+  },
+  {
+    "command": "/flirt",
+    "self": "You flirt.",
+    "target": "You flirt with {{target}}."
+  },
+  {
+    "command": "/flop",
+    "self": "You flop about helplessly.",
+    "target": "You flop about helplessly around {{target}}."
+  },
+  {
+    "command": "/followme",
+    "self": "You motion for everyone to follow.",
+    "target": "You motion for {{target}} to follow."
+  },
+  {
+    "command": "/food",
+    "self": "You are hungry!",
+    "target": "You are hungry. Maybe {{target}} has some food..."
+  },
+  {
+    "command": "/frown",
+    "self": "You frown.",
+    "target": "You frown with disappointment at {{target}}."
+  },
+  {
+    "command": "/gasp",
+    "self": "You gasp.",
+    "target": "You gasp at {{target}}."
+  },
+  {
+    "command": "/gaze",
+    "self": "You gaze off into the distance.",
+    "target": "You gaze longingly at {{target}}."
+  },
+  {
+    "command": "/giggle",
+    "self": "You giggle.",
+    "target": "You giggle at {{target}}."
+  },
+  {
+    "command": "/glad",
+    "self": "You are filled with happiness!",
+    "target": "You are very happy with {{target}}!"
+  },
+  {
+    "command": "/glare",
+    "self": "You glare angrily.",
+    "target": "You glare angrily at {{target}}."
+  },
+  {
+    "command": "/gloat",
+    "self": "You gloat over everyone's misfortune.",
+    "target": "You gloat over {{target}}'s misfortune."
+  },
+  {
+    "command": "/golfclap",
+    "self": "You clap half heartedly, clearly unimpressed.",
+    "target": "You clap for {{target}}, clearly unimpressed."
+  },
+  {
+    "command": "/goodbye",
+    "self": "You wave goodbye to everyone. Farewell!",
+    "target": "You wave goodbye to {{target}}. Farewell!"
+  },
+  {
+    "command": "/greet, /greetings",
+    "self": "You greet everyone warmly.",
+    "target": "You greet {{target}} warmly."
+  },
+  {
+    "command": "/grin",
+    "self": "You grin wickedly.",
+    "target": "You grin wickedly at {{target}}."
+  },
+  {
+    "command": "/groan",
+    "self": "You begin to groan.",
+    "target": "You look at {{target}} and groan."
+  },
+  {
+    "command": "/grovel",
+    "self": "You grovel on the ground, wallowing in subservience.",
+    "target": "You grovel before {{target}} like a subservient peon."
+  },
+  {
+    "command": "/growl",
+    "self": "You growl menacingly.",
+    "target": "You growl menacingly at {{target}}."
+  },
+  {
+    "command": "/guffaw",
+    "self": "You let out a boisterous guffaw!",
+    "target": "You take one look at {{target}} and let out a guffaw!"
+  },
+  {
+    "command": "/hail",
+    "self": "You hail those around you.",
+    "target": "You hail {{target}}."
+  },
+  {
+    "command": "/happy",
+    "self": "You are filled with happiness!",
+    "target": "You are very happy with {{target}}!"
+  },
+  {
+    "command": "/hello",
+    "self": "You greet everyone with a hearty hello!",
+    "target": "You greet {{target}} with a hearty hello!"
+  },
+  {
+    "command": "/hi",
+    "self": "You greet everyone with a hearty hello!",
+    "target": "You greet {{target}} with a hearty hello!"
+  },
+  {
+    "command": "/highfive",
+    "self": "You put up your hand for a high five.",
+    "target": "You give {{target}} a high five!"
+  },
+  {
+    "command": "/hug",
+    "self": "You need a hug!",
+    "target": "You hug {{target}}."
+  },
+  {
+    "command": "/hungry",
+    "self": "You are hungry!",
+    "target": "You are hungry. Maybe {{target}} has some food..."
+  },
+  {
+    "command": "/impatient",
+    "self": "You fidget.",
+    "target": "You fidget impatiently while waiting for {{target}}."
+  },
+  {
+    "command": "/incoming",
+    "self": "You warn everyone of incoming enemies!",
+    "target": "You point out {{target}} as an incoming enemy!"
+  },
+  {
+    "command": "/insult",
+    "self": "You think everyone around you is a son of a motherless ogre.",
+    "target": "You think {{target}} is the son of a motherless ogre."
+  },
+  {
+    "command": "/introduce",
+    "self": "You introduce yourself to everyone.",
+    "target": "You introduce yourself to {{target}}."
+  },
+  {
+    "command": "/jk",
+    "self": "You were just kidding!",
+    "target": "You let {{target}} know that you were just kidding!"
+  },
+  {
+    "command": "/kiss",
+    "self": "You blow a kiss into the wind.",
+    "target": "You blow a kiss to {{target}}."
+  },
+  {
+    "command": "/kneel",
+    "self": "You kneel down.",
+    "target": "You kneel before {{target}}."
+  },
+  {
+    "command": "/knuckles",
+    "self": "You crack your knuckles.",
+    "target": "You crack your knuckles while staring at {{target}}."
+  },
+  {
+    "command": "/laugh",
+    "self": "You laugh.",
+    "target": "You laugh at {{target}}."
+  },
+  {
+    "command": "/lavish",
+    "self": "You praise the Light.",
+    "target": "You lavish praise upon {{target}}."
+  },
+  {
+    "command": "/lay, /laydown",
+    "self": "You lie down.",
+    "target": "You lie down before {{target}}."
+  },
+  {
+    "command": "/lick",
+    "self": "You lick your lips.",
+    "target": "You lick {{target}}."
+  },
+  {
+    "command": "/lie, /liedown",
+    "self": "You lie down.",
+    "target": "You lie down before {{target}}."
+  },
+  {
+    "command": "/listen",
+    "self": "You are listening!",
+    "target": "You listen intently to {{target}}."
+  },
+  {
+    "command": "/lol",
+    "self": "You laugh.",
+    "target": "You laugh at {{target}}."
+  },
+  {
+    "command": "/lost",
+    "self": "You are hopelessly lost.",
+    "target": "You want {{target}} to know that you are hopelessly lost."
+  },
+  {
+    "command": "/love",
+    "self": "You feel the love.",
+    "target": "You love {{target}}."
+  },
+  {
+    "command": "/mad",
+    "self": "You raise your fist in anger.",
+    "target": "You raise your fist in anger at {{target}}."
+  },
+  {
+    "command": "/massage",
+    "self": "You need a massage!",
+    "target": "You massage {{target}}'s shoulders."
+  },
+  {
+    "command": "/moan",
+    "self": "You moan suggestively.",
+    "target": "You moan suggestively at {{target}}."
+  },
+  {
+    "command": "/mock",
+    "self": "You mock life and all it stands for.",
+    "target": "You mock the foolishness of {{target}}."
+  },
+  {
+    "command": "/moo",
+    "self": "Mooooooooooo.",
+    "target": "You moo at {{target}}. Mooooooooooo."
+  },
+  {
+    "command": "/moon",
+    "self": "You drop your trousers and moon everyone.",
+    "target": "You drop your trousers and moon {{target}}."
+  },
+  {
+    "command": "/mourn",
+    "self": "In quiet contemplation, you mourn the loss of the dead.",
+    "target": "In quiet contemplation, you mourn the death of {{target}}."
+  },
+  {
+    "command": "/no",
+    "self": "You clearly state, NO.",
+    "target": "You tell {{target}} NO. Not going to happen."
+  },
+  {
+    "command": "/nod",
+    "self": "You nod.",
+    "target": "You nod at {{target}}."
+  },
+  {
+    "command": "/nosepick",
+    "self": "With a finger deep in one nostril, you pass the time.",
+    "target": "You pick your nose and show it to {{target}}."
+  },
+  {
+    "command": "/panic",
+    "self": "You run around in a frenzied state of panic.",
+    "target": "You take one look at {{target}} and panic."
+  },
+  {
+    "command": "/party",
+    "self": "You raise a drink in the air before chugging it down. Cheers!",
+    "target": "You raise a drink to {{target}}. Cheers!"
+  },
+  {
+    "command": "/pat",
+    "self": "You need a pat.",
+    "target": "You gently pat {{target}}."
+  },
+  {
+    "command": "/peer",
+    "self": "You peer around, searchingly.",
+    "target": "You peer at {{target}} searchingly."
+  },
+  {
+    "command": "/peon",
+    "self": "You grovel on the ground, wallowing in subservience.",
+    "target": "You grovel before {{target}} like a subservient peon."
+  },
+  {
+    "command": "/pest",
+    "self": "You shoo the measly pests away.",
+    "target": "You shoo {{target}} away. Be gone pest!"
+  },
+  {
+    "command": "/pick",
+    "self": "With a finger deep in one nostril, you pass the time.",
+    "target": "You pick your nose and show it to {{target}}."
+  },
+  {
+    "command": "/pity",
+    "self": "You pity those around you.",
+    "target": "You look down upon {{target}} with pity."
+  },
+  {
+    "command": "/pizza",
+    "self": "You are hungry!",
+    "target": "You are hungry. Maybe {{target}} has some food..."
+  },
+  {
+    "command": "/plead",
+    "self": "You drop to your knees and plead in desperation.",
+    "target": "You plead with {{target}}."
+  },
+  {
+    "command": "/point",
+    "self": "You point over yonder.",
+    "target": "You point at {{target}}."
+  },
+  {
+    "command": "/poke",
+    "self": "You poke your belly and giggle.",
+    "target": "You poke {{target}}. Hey!"
+  },
+  {
+    "command": "/ponder",
+    "self": "You ponder the situation.",
+    "target": "You ponder {{target}}'s actions."
+  },
+  {
+    "command": "/pounce",
+    "self": "You pounce out from the shadows.",
+    "target": "You pounce on top of {{target}}."
+  },
+  {
+    "command": "/praise",
+    "self": "You praise the Light.",
+    "target": "You lavish praise upon {{target}}."
+  },
+  {
+    "command": "/pray",
+    "self": "You pray to the Gods.",
+    "target": "You say a prayer for {{target}}."
+  },
+  {
+    "command": "/purr",
+    "self": "You purr like a kitten.",
+    "target": "You purr at {{target}}."
+  },
+  {
+    "command": "/puzzled",
+    "self": "You are puzzled. What's going on here?",
+    "target": "You are puzzled by {{target}}."
+  },
+  {
+    "command": "/question",
+    "self": "You want to know the meaning of life.",
+    "target": "You question {{target}}."
+  },
+  {
+    "command": "/raise",
+    "self": "You raise your hand in the air.",
+    "target": "You look at {{target}} and raise your hand."
+  },
+  {
+    "command": "/rasp",
+    "self": "You make a rude gesture.",
+    "target": "You make a rude gesture at {{target}}."
+  },
+  {
+    "command": "/rdy, /ready",
+    "self": "You let everyone know that you are ready!",
+    "target": "You let {{target}} know that you are ready!"
+  },
+  {
+    "command": "/rear",
+    "self": "You shake your rear.",
+    "target": "You shake your rear at {{target}}."
+  },
+  {
+    "command": "/regret",
+    "self": "You are filled with regret.",
+    "target": "You think that {{target}} will regret it."
+  },
+  {
+    "command": "/roar",
+    "self": "You roar with bestial vigor. So fierce!",
+    "target": "You roar with bestial vigor at {{target}}. So fierce!"
+  },
+  {
+    "command": "/rofl",
+    "self": "You roll on the floor laughing.",
+    "target": "You roll on the floor laughing at {{target}}."
+  },
+  {
+    "command": "/rolleyes",
+    "self": "You roll you eyes.",
+    "target": "You roll your eyes at {{target}}."
+  },
+  {
+    "command": "/rude",
+    "self": "You make a rude gesture.",
+    "target": "You make a rude gesture at {{target}}."
+  },
+  {
+    "command": "/salute",
+    "self": "You stand at attention and salute.",
+    "target": "You salute {{target}} with respect."
+  },
+  {
+    "command": "/scared",
+    "self": "You are scared!",
+    "target": "You are scared of {{target}}."
+  },
+  {
+    "command": "/scratch",
+    "self": "You scratch yourself. Ah, much better!",
+    "target": "You scratch {{target}}. How catty!"
+  },
+  {
+    "command": "/sexy",
+    "self": "You're too sexy for your tunic...so sexy it hurts.",
+    "target": "You think {{target}} is a sexy devil."
+  },
+  {
+    "command": "/shake",
+    "self": "You shake your rear.",
+    "target": "You shake your rear at {{target}}."
+  },
+  {
+    "command": "/shimmy",
+    "self": "You shimmy before the masses.",
+    "target": "You shimmy before {{target}}."
+  },
+  {
+    "command": "/shindig",
+    "self": "You raise a drink in the air before chugging it down. Cheers!",
+    "target": "You raise a drink to {{target}}. Cheers!"
+  },
+  {
+    "command": "/shiver",
+    "self": "You shiver in your boots. Chilling!",
+    "target": "You shiver beside {{target}}. Chilling!"
+  },
+  {
+    "command": "/shoo",
+    "self": "You shoo the measly pests away.",
+    "target": "You shoo {{target}} away. Be gone pest!"
+  },
+  {
+    "command": "/shrug",
+    "self": "You shrug. Who knows?",
+    "target": "You shrug at {{target}}. Who knows?"
+  },
+  {
+    "command": "/shy",
+    "self": "You smile shyly.",
+    "target": "You smile shyly at {{target}}."
+  },
+  {
+    "command": "/sigh",
+    "self": "You let out a long, drawn-out sigh.",
+    "target": "You sigh at {{target}}."
+  },
+  {
+    "command": "/silly",
+    "self": "You tell a joke.",
+    "target": "You tell {{target}} a joke."
+  },
+  {
+    "command": "/slap",
+    "self": "You slap yourself across the face. Ouch!",
+    "target": "You slap {{target}} across the face. Ouch!"
+  },
+  {
+    "command": "/sleep",
+    "self": "You fall asleep. Zzzzzzz.",
+    "target": "You fall asleep. Zzzzzzz."
+  },
+  {
+    "command": "/smell",
+    "self": "You smell the air around you. Wow, someone stinks!",
+    "target": "You smell {{target}}. Wow, someone stinks!"
+  },
+  {
+    "command": "/smile",
+    "self": "You smile.",
+    "target": "You smile at {{target}}."
+  },
+  {
+    "command": "/smirk",
+    "self": "A sly smirk spreads across your face.",
+    "target": "You smirk slyly at {{target}}."
+  },
+  {
+    "command": "/snarl",
+    "self": "You bare your teeth and snarl.",
+    "target": "You bare your teeth and snarl at {{target}}."
+  },
+  {
+    "command": "/snicker",
+    "self": "You quietly snicker to yourself.",
+    "target": "You snicker at {{target}}."
+  },
+  {
+    "command": "/sniff",
+    "self": "You sniff the air around you.",
+    "target": "You sniff {{target}}."
+  },
+  {
+    "command": "/snub",
+    "self": "You snub all of the lowly peons around you.",
+    "target": "You snub {{target}}."
+  },
+  {
+    "command": "/sob",
+    "self": "You cry.",
+    "target": "You cry on {{target}}'s shoulder."
+  },
+  {
+    "command": "/soothe",
+    "self": "You need to be soothed.",
+    "target": "You soothe {{target}}. There, there...things will be ok."
+  },
+  {
+    "command": "/sorry",
+    "self": "You apologize to everyone. Sorry!",
+    "target": "You apologize to {{target}}. Sorry!"
+  },
+  {
+    "command": "/spit",
+    "self": "You spit on the ground.",
+    "target": "You spit on {{target}}."
+  },
+  {
+    "command": "/spoon",
+    "self": "You need to be cuddled.",
+    "target": "You cuddle up against {{target}}."
+  },
+  {
+    "command": "/stare",
+    "self": "You stare off into the distance.",
+    "target": "You stare {{target}} down."
+  },
+  {
+    "command": "/stink",
+    "self": "You smell the air around you. Wow, someone stinks!",
+    "target": "You smell {{target}}. Wow, someone stinks!"
+  },
+  {
+    "command": "/strong",
+    "self": "You flex your muscles. Oooooh so strong!",
+    "target": "You flex at {{target}}. Oooooh so strong!"
+  },
+  {
+    "command": "/strut",
+    "self": "With arms flapping, you strut around. Cluck, Cluck, Chicken!",
+    "target": "With arms flapping, you strut around {{target}}. Cluck, Cluck, Chicken!"
+  },
+  {
+    "command": "/surprised",
+    "self": "You are so surprised!",
+    "target": "You are surprised by {{target}}'s actions."
+  },
+  {
+    "command": "/surrender",
+    "self": "You surrender to your opponents.",
+    "target": "You surrender before {{target}}. Such is the agony of defeat..."
+  },
+  {
+    "command": "/talk",
+    "self": "You talk to yourself since no one else seems interested",
+    "target": "You want to talk things over with {{target}}"
+  },
+  {
+    "command": "/talkex",
+    "self": "You talk excitedly with everyone",
+    "target": "You talk excitedly with {{target}}"
+  },
+  {
+    "command": "/talkq",
+    "self": "You want to know the meaning of life.",
+    "target": "You question {{target}}."
+  },
+  {
+    "command": "/tap",
+    "self": "You tap your foot. Hurry up already!",
+    "target": "You tap your foot as you wait for {{target}}."
+  },
+  {
+    "command": "/taunt",
+    "self": "You taunt everyone around you. Bring it fools!",
+    "target": "You make a taunting gesture at {{target}}. Bring it!"
+  },
+  {
+    "command": "/tease",
+    "self": "You are such a tease.",
+    "target": "You tease {{target}}."
+  },
+  {
+    "command": "/thank, /thanks",
+    "self": "You thank everyone around you.",
+    "target": "You thank {{target}}."
+  },
+  {
+    "command": "/think",
+    "self": "You are lost in thought.",
+    "target": "You think about {{target}}"
+  },
+  {
+    "command": "/thirsty",
+    "self": "You are so thirsty. Can anyone spare a drink?",
+    "target": "You let {{target}} know you are thirsty. Spare a drink?"
+  },
+  {
+    "command": "/threat, /threaten, /doom",
+    "self": "You threaten everyone with the wrath of doom.",
+    "target": "You threaten {{target}} with the wrath of doom."
+  },
+  {
+    "command": "/tickle",
+    "self": "You want to be tickled. Hee hee!",
+    "target": "You tickle {{target}}. Hee hee!"
+  },
+  {
+    "command": "/tired",
+    "self": "You let everyone know that you are tired.",
+    "target": "You let {{target}} know that you are tired."
+  },
+  {
+    "command": "/ty",
+    "self": "You thank everyone around you.",
+    "target": "You thank {{target}}."
+  },
+  {
+    "command": "/veto",
+    "self": "You veto the motion on the floor.",
+    "target": "You veto {{target}}'s motion."
+  },
+  {
+    "command": "/victory",
+    "self": "You bask in the glory of victory.",
+    "target": "You bask in the glory of victory with {{target}}."
+  },
+  {
+    "command": "/violin",
+    "self": "You begin to play the world's smallest violin.",
+    "target": "You play the world's smallest violin for {{target}}."
+  },
+  {
+    "command": "/volunteer",
+    "self": "You raise your hand in the air.",
+    "target": "You look at {{target}} and raise your hand."
+  },
+  {
+    "command": "/wait",
+    "self": "You ask everyone to wait.",
+    "target": "{{target}} asks {{target}} to wait."
+  },
+  {
+    "command": "/wave",
+    "self": "You wave.",
+    "target": "You wave at {{target}}."
+  },
+  {
+    "command": "/weep",
+    "self": "You cry.",
+    "target": "You cry on {{target}}'s shoulder."
+  },
+  {
+    "command": "/welcome",
+    "self": "You welcome everyone.",
+    "target": "You welcome {{target}}."
+  },
+  {
+    "command": "/whine",
+    "self": "You whine pathetically.",
+    "target": "You whine pathetically at {{target}}."
+  },
+  {
+    "command": "/whistle",
+    "self": "You let forth a sharp whistle.",
+    "target": "You whistle at {{target}}."
+  },
+  {
+    "command": "/whoa",
+    "self": "You are blown away.",
+    "target": "You are blown away by {{target}}."
+  },
+  {
+    "command": "/wicked, /wickedly",
+    "self": "You grin wickedly.",
+    "target": "You grin wickedly at {{target}}."
+  },
+  {
+    "command": "/wink",
+    "self": "You wink slyly.",
+    "target": "You wink slyly at {{target}}."
+  },
+  {
+    "command": "/woot",
+    "self": "You cheer!",
+    "target": "You cheer at {{target}}."
+  },
+  {
+    "command": "/work",
+    "self": "You begin to work.",
+    "target": "You work with {{target}}."
+  },
+  {
+    "command": "/wrath",
+    "self": "You threaten everyone with the wrath of doom.",
+    "target": "You threaten {{target}} with the wrath of doom."
+  },
+  {
+    "command": "/yawn",
+    "self": "You yawn sleepily.",
+    "target": "You yawn sleepily at {{target}}."
+  },
+  {
+    "command": "/yay",
+    "self": "You are filled with happiness!",
+    "target": "You are very happy with {{target}}!"
+  },
+  {
+    "command": "/yes",
+    "self": "You nod.",
+    "target": "You nod at {{target}}."
+  },
+  {
+    "command": "/yw",
+    "self": "You were happy to help.",
+    "target": "You were happy to help {{target}}."
+  },
+  {
+    "command": "/yield",
+    "self": "You give up in a duel before being defeated.",
+    "target": "You give up in a duel before being defeated."
+  }
+]
