@@ -1,7 +1,7 @@
 {
   "name": "wow-classic-bot",
   "version": "1.0.0",
-  "description": "My First Discord Bot",
+  "description": "Countdown timer for Wow Classic launch",
   "main": "bot.js",
   "author": "Arthur Wuterich",
   "dependencies": {
