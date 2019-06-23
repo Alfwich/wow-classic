@@ -17,13 +17,13 @@ const msgTimeout = msInHour * 12;
 const endDate = new Date(Date.UTC(2019, 7, 26, 22, 0, 0));
 
 const pollAction = () => {
-    const cId = _.find(bot.channels, {
+    const channel = _.find(bot.channels, {
         name: 'wow-classic'
     });
 
-    if (cId) {
+    if (channel) {
         bot.sendMessage({
-            to: _.get(cId, 'id'),
+            to: _.get(channel, 'id'),
             message: " in " + countdown(
                 new Date(),
                 endDate,
@@ -45,7 +45,7 @@ const bot = new Discord.Client({
     autorun: true
 });
 
-bot.on('ready', function(evt) {
+bot.on('ready', (e) => {
 
     logger.info('Connected');
     logger.info('Logged in as: ');
