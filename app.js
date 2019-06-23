@@ -37,27 +37,36 @@ const pollAction = () => {
         })
         .get('id')
         .value();
+    const msg = getMessage();
 
-    if (channelId) {
+    if (channelId && !_.isEmpty(msg)) {
         bot.sendMessage({
             to: channelId,
             message: getMessage()
         });
     }
+
+    return !_.isEmpty(msg);
 }
 
 const startPoll = () => {
     const timeoutMs = msgTimeout + _.random(msInHour);
     setTimeout(() => {
-        pollAction();
-        setTimeout(startPoll, timeoutMs);
+        if (pollAction()) {
+            setTimeout(startPoll, timeoutMs);
+        }
     }, timeoutMs);
 }
 const getMessage = () => {
+    const now = new Date();
+    if (isToday(endDate)) {
+        return ':tada: :fire: :tada: :fire: :tada: :fire: TODAY IS LAUNCH! :fire: :tada: :fire: :tada: :fire: :tada:';
+    } else if (now > endDate) {
+        return '';
+    }
+
     const timerText =
-        " arrives in " + countdown(
-            new Date(),
-            endDate,
+        " arrives in " + countdown(now, endDate,
             countdown.DAYS | countdown.HOURS | countdown.MINUTES | countdown.SECONDS
         ).toString() + "!";
     const randomEmote = _.sample(emotes);
@@ -69,6 +78,13 @@ const getMessage = () => {
     const randomEmoteText = `Emote of the day:\n\`\`\`${randomEmote.command}      "${randomEmote.self}"     ${randomEmote.target.replace('{{target}}', randomUserName)}\`\`\``
 
     return `${timerText}\n${randomEmoteText}`;
+}
+
+const isToday = (someDate) => {
+    const today = new Date()
+    return someDate.getDate() == today.getDate() &&
+        someDate.getMonth() == today.getMonth() &&
+        someDate.getFullYear() == today.getFullYear()
 }
 
 bot.on('ready', (e) => {
