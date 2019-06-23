@@ -1,3 +1,4 @@
+const _ = require('lodash');
 const Discord = require('discord.io');
 const logger = require('winston');
 const auth = require('./auth.json');
@@ -11,9 +12,34 @@ logger.add(new logger.transports.Console, {
 
 logger.level = 'debug';
 
-const endDate = new Date('August 27, 2019 10:00:00');
+const msInHour = 3600000;
+const msgTimeout = msInHour * 12;
+const endDate = new Date(Date.UTC(2019, 7, 26, 22, 0, 0));
 
-// Initialize Discord Bot
+const pollAction = () => {
+    const cId = _.find(bot.channels, {
+        name: 'wow-classic'
+    });
+
+    if (cId) {
+        bot.sendMessage({
+            to: _.get(cId, 'id'),
+            message: " in " + countdown(
+                new Date(),
+                endDate,
+                countdown.DAYS | countdown.HOURS | countdown.MINUTES | countdown.SECONDS
+            ).toString()
+        });
+    }
+}
+
+const startPoll = () => {
+    setTimeout(() => {
+        pollAction();
+        setTimeout(startPoll, msgTimeout);
+    }, msgTimeout);
+}
+
 const bot = new Discord.Client({
     token: auth.token,
     autorun: true
@@ -25,38 +51,7 @@ bot.on('ready', function(evt) {
     logger.info('Logged in as: ');
     logger.info(bot.username + ' - (' + bot.id + ')');
 
-});
-
-bot.on('message', function(user, userID, channelID, message, evt) {
-
-    // Our bot needs to know if it will execute a command
-    // It will listen for messages that will start with `!`
-    if (message.substring(0, 1) == '!') {
-
-        let args = message.substring(1).split(' ');
-        let cmd = args[0];
-
-        args = args.splice(1);
-
-        switch (cmd) {
-          // !ping
-          case 'ping':
-            bot.sendMessage({
-              to: channelID,
-              message: 'Pong!'
-            });
-            break;
-          case 'countdown':
-            bot.sendMessage({
-              to: channelID,
-              message: countdown(
-                new Date(),
-                endDate,
-                countdown.DAYS|countdown.HOURS|countdown.MINUTES|countdown.SECONDS
-              ).toString()
-            })
-        }
-
-    }
+    pollAction();
+    startPoll();
 
 });
