@@ -1,14 +1,17 @@
 const Discord = require('discord.io');
 const logger = require('winston');
 const auth = require('./auth.json');
+const countdown = require('countdown');
 
 // Configure logger settings
 logger.remove(logger.transports.Console);
 logger.add(new logger.transports.Console, {
-  colorize: true
+    colorize: true
 });
 
 logger.level = 'debug';
+
+const endDate = new Date('August 27, 2019 10:00:00');
 
 // Initialize Discord Bot
 const bot = new Discord.Client({
@@ -43,6 +46,15 @@ bot.on('message', function(user, userID, channelID, message, evt) {
               message: 'Pong!'
             });
             break;
+          case 'countdown':
+            bot.sendMessage({
+              to: channelID,
+              message: countdown(
+                new Date(),
+                endDate,
+                countdown.DAYS|countdown.HOURS|countdown.MINUTES|countdown.SECONDS
+              ).toString()
+            })
         }
 
     }
