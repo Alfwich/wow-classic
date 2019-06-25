@@ -59,16 +59,6 @@
     "target": "You bite {{target}}. Ouch!"
   },
   {
-    "command": "/bleed",
-    "self": "",
-    "target": ""
-  },
-  {
-    "command": "/blood",
-    "self": "Blood oozes from your wounds.",
-    "target": ""
-  },
-  {
     "command": "/blink",
     "self": "You blink your eyes.",
     "target": "You blink at {{target}}."

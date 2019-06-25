@@ -23,6 +23,7 @@ const randomBackupUsers = _.map(['Glitterstorm', 'Cleaveland', 'Ragebar', 'Brost
     }
 });
 const fallbackUsername = 'Grommash Hellscream';
+let randomizedEmotes = [];
 
 const bot = new Discord.Client({
     token: auth.token,
@@ -57,6 +58,7 @@ const startPoll = () => {
         }
     }, timeoutMs);
 }
+
 const getMessage = () => {
     const now = new Date();
     if (isToday(endDate)) {
@@ -65,17 +67,21 @@ const getMessage = () => {
         return '';
     }
 
+    if (_.isEmpty(randomizedEmotes)) {
+        randomizedEmotes = _.shuffle(emotes);
+    }
+
     const timerText =
         " arrives in " + countdown(now, endDate,
             countdown.DAYS | countdown.HOURS | countdown.MINUTES | countdown.SECONDS
         ).toString() + "!";
-    const randomEmote = _.sample(emotes);
+    const randomEmote = randomizedEmotes.pop();
     const randomUserName = _.chain(bot)
         .get('users', randomBackupUsers)
         .sample()
         .get('username', fallbackUsername)
         .value();
-    const randomEmoteText = `Emote of the day:\n\`\`\`${randomEmote.command}      "${randomEmote.self}"     ${randomEmote.target.replace('{{target}}', randomUserName)}\`\`\``
+    const randomEmoteText = `Emote of the day:\n\`\`\`${randomEmote.command}      "${randomEmote.self}"     "${randomEmote.target.replace('{{target}}', randomUserName)}"\`\`\``
 
     return `${timerText}\n${randomEmoteText}`;
 }
