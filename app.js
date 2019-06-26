@@ -53,9 +53,8 @@ const pollAction = () => {
 const startPoll = () => {
     const timeoutMs = msgTimeout + _.random(msInHour);
     setTimeout(() => {
-        if (pollAction()) {
-            setTimeout(startPoll, timeoutMs);
-        }
+        pollAction();
+        setTimeout(startPoll, timeoutMs);
     }, timeoutMs);
 }
 
