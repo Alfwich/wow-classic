@@ -52,10 +52,9 @@ const pollAction = () => {
 
 const startPoll = () => {
     const timeoutMs = msgTimeout + _.random(msInHour);
-    setTimeout(() => {
-        pollAction();
-        setTimeout(startPoll, timeoutMs);
-    }, timeoutMs);
+
+    pollAction();
+    setTimeout(startPoll, timeoutMs);
 }
 
 const getMessage = () => {
@@ -97,6 +96,5 @@ bot.on('ready', (e) => {
     logger.info('Logged in as: ');
     logger.info(bot.username + ' - (' + bot.id + ')');
 
-    pollAction();
     startPoll();
 });
